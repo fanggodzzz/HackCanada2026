@@ -10,7 +10,7 @@ Each folder backend, frontend, and model needs inital set up. You can run the se
 
 You can run the application components using the convenient batch scripts provided in the root directory, or by running the commands manually in your terminal.
 
-### 1. Data Collection
+### 1. Data Collection & Training AI
 
 This script pulls sample images for the AI model from DuckDuckGo.
 **Using the script:** Double-click `collect_data.bat`
@@ -18,6 +18,14 @@ This script pulls sample images for the AI model from DuckDuckGo.
 
 ```powershell
 python model\data_collector.py
+```
+
+Then trains the AI based on collected data.
+**Using the script:** Double-click `train_model.bat`
+**Using terminal:**
+
+```powershell
+python model\train_model.py
 ```
 
 ### 2. Start Backend Server

@@ -6,7 +6,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from typing import List
 import torch
-from . import models, schemas, database
+import models
+import schemas
+import database
 from torchvision import models as tv_models, transforms
 from PIL import Image
 import io

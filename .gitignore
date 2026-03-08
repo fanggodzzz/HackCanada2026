@@ -15,17 +15,34 @@ venv/
 # ===============================
 # Model / Training
 # ===============================
-# large datasets
+# dataset (very large)
 model/dataset/
 
 # training outputs
 model/runs/
 model/checkpoints/
 
-# large model files (optional)
+# trained models
 *.pt
 *.pth
 *.ckpt
+
+# ===============================
+# Uploaded / Generated Images
+# ===============================
+uploads/
+upload/
+generated/
+results/
+predictions/
+
+# ignore image outputs created by model
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.gif
 
 # ===============================
 # Backend
@@ -33,12 +50,12 @@ model/checkpoints/
 backend/venv/
 backend/__pycache__/
 
-# database files
+# database
 *.db
 *.sqlite3
 
 # ===============================
-# Frontend (Node.js)
+# Frontend (Node)
 # ===============================
 frontend/node_modules/
 frontend/dist/
@@ -62,8 +79,7 @@ Thumbs.db
 .idea/
 
 # ===============================
-# Temporary files
+# Temp files
 # ===============================
 *.tmp
-*.temp
 *.cache
