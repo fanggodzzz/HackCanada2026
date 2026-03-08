@@ -1,0 +1,69 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# ===============================
+# Model / Training
+# ===============================
+# large datasets
+model/dataset/
+
+# training outputs
+model/runs/
+model/checkpoints/
+
+# large model files (optional)
+*.pt
+*.pth
+*.ckpt
+
+# ===============================
+# Backend
+# ===============================
+backend/venv/
+backend/__pycache__/
+
+# database files
+*.db
+*.sqlite3
+
+# ===============================
+# Frontend (Node.js)
+# ===============================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Temporary files
+# ===============================
+*.tmp
+*.temp
+*.cache

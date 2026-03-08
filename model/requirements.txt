@@ -1,0 +1,8 @@
+torch
+torchvision
+numpy
+pillow
+requests
+duckduckgo-search
+ddgs
+tqdm

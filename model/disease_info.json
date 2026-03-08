@@ -1,0 +1,93 @@
+[
+  {
+    "disease": "Melanoma",
+    "severity": "Serious",
+    "treatments": [
+      "Consult dermatologist immediately",
+      "Surgical excision",
+      "Chemotherapy"
+    ]
+  },
+  {
+    "disease": "Eczema",
+    "severity": "Medium",
+    "treatments": [
+      "Apply topical corticosteroids",
+      "Keep skin moisturized",
+      "Avoid known triggers"
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "severity": "Medium",
+    "treatments": [
+      "Topical treatments",
+      "Light therapy",
+      "Systemic medications"
+    ]
+  },
+  {
+    "disease": "Acne",
+    "severity": "Light",
+    "treatments": [
+      "Over-the-counter topical treatments (benzoyl peroxide, salicylic acid)",
+      "Prescription antibiotics",
+      "Isotretinoin for severe cases"
+    ]
+  },
+  {
+    "disease": "Rosacea",
+    "severity": "Medium",
+    "treatments": [
+      "Topical creams (brimonidine, ivermectin)",
+      "Oral antibiotics",
+      "Laser therapy"
+    ]
+  },
+  {
+    "disease": "Ringworm",
+    "severity": "Medium",
+    "treatments": [
+      "Over-the-counter antifungal creams",
+      "Prescription antifungal medications",
+      "Keep area clean and dry"
+    ]
+  },
+  {
+    "disease": "Hives",
+    "severity": "Light",
+    "treatments": ["Antihistamines", "Avoid triggers", "Cold compresses"]
+  },
+  {
+    "disease": "Warts",
+    "severity": "Light",
+    "treatments": [
+      "Salicylic acid treatments",
+      "Cryotherapy",
+      "Surgical removal in some cases"
+    ]
+  },
+  {
+    "disease": "Shingles",
+    "severity": "Serious",
+    "treatments": [
+      "Antiviral medications",
+      "Pain relievers",
+      "Consult doctor immediately"
+    ]
+  },
+  {
+    "disease": "Cellulitis",
+    "severity": "Serious",
+    "treatments": [
+      "Oral antibiotics",
+      "Intravenous antibiotics for severe cases",
+      "Elevate affected area"
+    ]
+  },
+  {
+    "disease": "Healthy Skin",
+    "severity": "Healthy",
+    "treatments": ["Stay good"]
+  }
+]

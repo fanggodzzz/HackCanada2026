@@ -1,0 +1,3 @@
+@echo off
+echo Starting Backend Server (FastAPI)...
+.\venv\Scripts\python -m uvicorn backend.main:app --reload --port 8000
